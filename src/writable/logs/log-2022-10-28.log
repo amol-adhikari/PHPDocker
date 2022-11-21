@@ -1,0 +1,30 @@
+CRITICAL - 2022-10-28 06:48:06 --> The framework needs the following extension(s) installed and loaded: curl.
+#0 C:\wamp64\www\ci4sampleapp-master\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl')
+#1 C:\wamp64\www\ci4sampleapp-master\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\wamp64\www\ci4sampleapp-master\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\wamp64\www\ci4sampleapp-master\public\index.php(35): require('C:\\wamp64\\www\\c...')
+#4 {main}
+CRITICAL - 2022-10-28 06:48:27 --> The framework needs the following extension(s) installed and loaded: curl.
+#0 C:\wamp64\www\ci4sampleapp-master\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl')
+#1 C:\wamp64\www\ci4sampleapp-master\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\wamp64\www\ci4sampleapp-master\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\wamp64\www\ci4sampleapp-master\public\index.php(35): require('C:\\wamp64\\www\\c...')
+#4 {main}
+CRITICAL - 2022-10-28 07:06:05 --> The framework needs the following extension(s) installed and loaded: curl.
+#0 C:\wamp64\www\ci4sampleapp-master\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl')
+#1 C:\wamp64\www\ci4sampleapp-master\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\wamp64\www\ci4sampleapp-master\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\wamp64\www\ci4sampleapp-master\public\index.php(35): require('C:\\wamp64\\www\\c...')
+#4 {main}
+CRITICAL - 2022-10-28 07:06:11 --> The framework needs the following extension(s) installed and loaded: curl.
+#0 C:\wamp64\www\ci4sampleapp-master\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl')
+#1 C:\wamp64\www\ci4sampleapp-master\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\wamp64\www\ci4sampleapp-master\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\wamp64\www\ci4sampleapp-master\public\index.php(35): require('C:\\wamp64\\www\\c...')
+#4 {main}
+CRITICAL - 2022-10-28 07:06:17 --> The framework needs the following extension(s) installed and loaded: curl.
+#0 C:\wamp64\www\ci4sampleapp-master\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl')
+#1 C:\wamp64\www\ci4sampleapp-master\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\wamp64\www\ci4sampleapp-master\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\wamp64\www\ci4sampleapp-master\public\index.php(35): require('C:\\wamp64\\www\\c...')
+#4 {main}

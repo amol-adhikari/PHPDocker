@@ -1,0 +1,107 @@
+ERROR - 2022-11-20 19:03:44 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-11-20 19:03:44 --> Unable to connect to the database.
+#0 /var/www/html/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/system/Database/BaseBuilder.php(1903): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#2 /var/www/html/app/Models/GoBaseModel.php(69): CodeIgniter\Database\BaseBuilder->countAll()
+#3 /var/www/html/app/Controllers/Home.php(27): App\Models\GoBaseModel->getCount()
+#4 /var/www/html/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#5 /var/www/html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-11-20 19:04:36 --> mysqli_sql_exception: No database selected in /var/www/html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 /var/www/html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /var/www/html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /var/www/html/system/Database/BaseBuilder.php(1903): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#4 /var/www/html/app/Models/GoBaseModel.php(69): CodeIgniter\Database\BaseBuilder->countAll()
+#5 /var/www/html/app/Controllers/Home.php(27): App\Models\GoBaseModel->getCount()
+#6 /var/www/html/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#7 /var/www/html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /var/www/html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-11-20 19:04:36 --> mysqli_sql_exception: No database selected in /var/www/html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /var/www/html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(5, 0)
+#6 /var/www/html/app/Controllers/Home.php(29): CodeIgniter\BaseModel->findAll(5)
+#7 /var/www/html/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#8 /var/www/html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 /var/www/html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-11-20 19:04:36 --> mysqli_sql_exception: No database selected in /var/www/html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 /var/www/html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /var/www/html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /var/www/html/system/Database/BaseBuilder.php(1903): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#4 /var/www/html/app/Models/GoBaseModel.php(69): CodeIgniter\Database\BaseBuilder->countAll()
+#5 /var/www/html/app/Controllers/Home.php(31): App\Models\GoBaseModel->getCount()
+#6 /var/www/html/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#7 /var/www/html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /var/www/html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-11-20 19:04:36 --> mysqli_sql_exception: No database selected in /var/www/html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /var/www/html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(5, 0)
+#6 /var/www/html/app/Controllers/Home.php(33): CodeIgniter\BaseModel->findAll(5)
+#7 /var/www/html/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#8 /var/www/html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 /var/www/html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-11-20 19:04:36 --> mysqli_sql_exception: No database selected in /var/www/html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 /var/www/html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /var/www/html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /var/www/html/system/Database/BaseBuilder.php(1903): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#4 /var/www/html/app/Models/GoBaseModel.php(69): CodeIgniter\Database\BaseBuilder->countAll()
+#5 /var/www/html/app/Controllers/Home.php(35): App\Models\GoBaseModel->getCount()
+#6 /var/www/html/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#7 /var/www/html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /var/www/html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-11-20 19:04:36 --> mysqli_sql_exception: No database selected in /var/www/html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /var/www/html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(5, 0)
+#6 /var/www/html/app/Controllers/Home.php(37): CodeIgniter\BaseModel->findAll(5)
+#7 /var/www/html/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#8 /var/www/html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 /var/www/html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-11-20 19:05:50 --> mysqli_sql_exception: No database selected in /var/www/html/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /var/www/html/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /var/www/html/app/Controllers/GoBaseController.php(172): CodeIgniter\BaseModel->findAll()
+#7 /var/www/html/app/Controllers/CountriesController.php(31): App\Controllers\GoBaseController->index()
+#8 /var/www/html/system/CodeIgniter.php(936): App\Controllers\CountriesController->index()
+#9 /var/www/html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CountriesController))
+#10 /var/www/html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /var/www/html/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}

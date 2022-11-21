@@ -1,0 +1,77 @@
+ERROR - 2022-11-02 05:35:04 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-11-02 05:35:04 --> Unable to connect to the database.
+#0 E:\wamp64\www\ci4sampleapp-master\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\wamp64\www\ci4sampleapp-master\system\Database\BaseBuilder.php(1903): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#2 E:\wamp64\www\ci4sampleapp-master\app\Models\GoBaseModel.php(69): CodeIgniter\Database\BaseBuilder->countAll()
+#3 E:\wamp64\www\ci4sampleapp-master\app\Controllers\Home.php(27): App\Models\GoBaseModel->getCount()
+#4 E:\wamp64\www\ci4sampleapp-master\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#5 E:\wamp64\www\ci4sampleapp-master\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 E:\wamp64\www\ci4sampleapp-master\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\ci4sampleapp-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-11-02 05:38:41 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-11-02 05:38:41 --> Unable to connect to the database.
+#0 E:\wamp64\www\ci4sampleapp-master\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\wamp64\www\ci4sampleapp-master\system\Database\BaseBuilder.php(1903): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#2 E:\wamp64\www\ci4sampleapp-master\app\Models\GoBaseModel.php(69): CodeIgniter\Database\BaseBuilder->countAll()
+#3 E:\wamp64\www\ci4sampleapp-master\app\Controllers\Home.php(27): App\Models\GoBaseModel->getCount()
+#4 E:\wamp64\www\ci4sampleapp-master\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#5 E:\wamp64\www\ci4sampleapp-master\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 E:\wamp64\www\ci4sampleapp-master\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\ci4sampleapp-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-11-02 05:39:07 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-11-02 05:39:07 --> Unable to connect to the database.
+#0 E:\wamp64\www\ci4sampleapp-master\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\wamp64\www\ci4sampleapp-master\system\Database\BaseBuilder.php(1903): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#2 E:\wamp64\www\ci4sampleapp-master\app\Models\GoBaseModel.php(69): CodeIgniter\Database\BaseBuilder->countAll()
+#3 E:\wamp64\www\ci4sampleapp-master\app\Controllers\Home.php(27): App\Models\GoBaseModel->getCount()
+#4 E:\wamp64\www\ci4sampleapp-master\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#5 E:\wamp64\www\ci4sampleapp-master\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 E:\wamp64\www\ci4sampleapp-master\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\ci4sampleapp-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-11-02 05:42:11 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-11-02 05:42:11 --> Unable to connect to the database.
+#0 E:\wamp64\www\ci4sampleapp-master\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\wamp64\www\ci4sampleapp-master\system\Database\BaseBuilder.php(1903): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#2 E:\wamp64\www\ci4sampleapp-master\app\Models\GoBaseModel.php(69): CodeIgniter\Database\BaseBuilder->countAll()
+#3 E:\wamp64\www\ci4sampleapp-master\app\Controllers\Home.php(27): App\Models\GoBaseModel->getCount()
+#4 E:\wamp64\www\ci4sampleapp-master\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#5 E:\wamp64\www\ci4sampleapp-master\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 E:\wamp64\www\ci4sampleapp-master\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\ci4sampleapp-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-11-02 05:42:14 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-11-02 05:42:14 --> Unable to connect to the database.
+#0 E:\wamp64\www\ci4sampleapp-master\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\wamp64\www\ci4sampleapp-master\system\Database\BaseBuilder.php(1903): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#2 E:\wamp64\www\ci4sampleapp-master\app\Models\GoBaseModel.php(69): CodeIgniter\Database\BaseBuilder->countAll()
+#3 E:\wamp64\www\ci4sampleapp-master\app\Controllers\Home.php(27): App\Models\GoBaseModel->getCount()
+#4 E:\wamp64\www\ci4sampleapp-master\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#5 E:\wamp64\www\ci4sampleapp-master\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 E:\wamp64\www\ci4sampleapp-master\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\ci4sampleapp-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-11-02 05:53:46 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-11-02 05:53:46 --> Unable to connect to the database.
+#0 E:\wamp64\www\ci4sampleapp-master\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\wamp64\www\ci4sampleapp-master\system\Database\BaseBuilder.php(1903): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#2 E:\wamp64\www\ci4sampleapp-master\app\Models\GoBaseModel.php(69): CodeIgniter\Database\BaseBuilder->countAll()
+#3 E:\wamp64\www\ci4sampleapp-master\app\Controllers\Home.php(27): App\Models\GoBaseModel->getCount()
+#4 E:\wamp64\www\ci4sampleapp-master\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#5 E:\wamp64\www\ci4sampleapp-master\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 E:\wamp64\www\ci4sampleapp-master\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\ci4sampleapp-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-11-02 05:54:55 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-11-02 05:54:55 --> Unable to connect to the database.
+#0 E:\wamp64\www\ci4sampleapp-master\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\wamp64\www\ci4sampleapp-master\system\Database\BaseBuilder.php(1903): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#2 E:\wamp64\www\ci4sampleapp-master\app\Models\GoBaseModel.php(69): CodeIgniter\Database\BaseBuilder->countAll()
+#3 E:\wamp64\www\ci4sampleapp-master\app\Controllers\Home.php(27): App\Models\GoBaseModel->getCount()
+#4 E:\wamp64\www\ci4sampleapp-master\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#5 E:\wamp64\www\ci4sampleapp-master\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 E:\wamp64\www\ci4sampleapp-master\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\wamp64\www\ci4sampleapp-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
